@@ -85,7 +85,7 @@ char **strtow2(char *str, char d)
 			free(s);
 			return (NULL);
 		}
-		for (m = 0; m < k; m++
+		for (m = 0; m < k; m++)
 				s[j][m] = str[i++];
 				s[j][m] = 0;
 	}
